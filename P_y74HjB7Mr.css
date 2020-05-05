@@ -1,0 +1,19 @@
+/* Code tidied up by ScrapBook */
+@media all and (max-width: 700px) {
+}
+@media all and (max-width: 700px) {
+}
+@media all and (max-width: 700px) {
+}
+@media all and (max-width: 900px) {
+}
+.uiScaledImageContainer { position: relative; overflow: hidden; }
+.uiScaledImageContainer img { height: 100%; min-height: 100%; position: relative; }
+.uiScaledImageContainer .scaledImageFitHeight { height: 100%; min-height: initial; width: auto; }
+@keyframes piyqo8ul-B {
+0% { opacity: 0.02; }
+100% { opacity: 0.08; }
+}
+@keyframes srbsyapi-B {
+0%, 100% { opacity: 0; }
+}

@@ -1,0 +1,2 @@
+/* Code tidied up by ScrapBook */
+.lazy-hidden, .entry img.lazy-hidden, img.thumbnail.lazy-hidden { background-color: rgb(255, 255, 255); background-image: url("loading.gif"); background-repeat: no-repeat; background-position: 50% 50%; }

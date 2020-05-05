@@ -1,0 +1,52 @@
+/* Code tidied up by ScrapBook */
+@media only screen and (min-width: 942px) and (max-width: 1170px) {
+  #wrapper { width: 940px; }
+  .container { width: 900px; }
+  #main { width: 610px; }
+  #sidebar { width: 260px; }
+  #nav-wrapper .menu li { margin: 0px 18px; }
+  .item-related { width: 190px; margin-right: 20px; }
+  #footer-social a { margin: 0px 18px; }
+}
+@media only screen and (min-width: 767px) and (max-width: 960px) {
+  #wrapper { width: 726px; }
+  .container { width: 690px; }
+  #main { width: 100%; }
+  #sidebar { width: 480px; margin: 0px auto; float: none; overflow: hidden; padding-top: 5px; }
+  #nav-wrapper { display: none; }
+  .slicknav_menu { display: block; }
+  #mobile-social { display: block; }
+  #top-social { display: none; }
+  .item-related, #main.fullwidth .item-related { width: 216px; margin-right: 21px; }
+  #footer-social a { font-size: 18px; }
+  #footer-social a span { display: none; }
+  textarea, input.text, input[type="text"], input[type="button"], input[type="submit"], .input-checkbox { border-radius: 0px; }
+}
+@media only screen and (max-width: 767px) {
+  #wrapper { width: 320px; }
+  .container { width: 280px; }
+  #main { width: 100%; }
+  #sidebar { width: 100%; margin: 0px auto; float: none; overflow: hidden; padding-top: 5px; }
+  #nav-wrapper { display: none; }
+  .slicknav_menu { display: block; }
+  #mobile-social { display: block; right: 10px; }
+  #top-social { display: none; }
+  .post-header h2 a, .post-header h1 { font-size: 24px; }
+  .meta-info { width: 100%; margin-bottom: 5px; }
+  .post-share { float: left; }
+  .post-share a:first-child { margin-left: 0px; }
+  .post-pagination .prev, .post-pagination .next { width: 100%; float: none; text-align: center; display: block; }
+  .post-pagination .prev { margin-bottom: 10px; }
+  .item-related, #main.fullwidth .item-related { width: 100%; margin-right: 0px; margin-bottom: 20px; }
+  #footer-social a { font-size: 14px; margin: 0px 5px; }
+  #footer-social a span { display: none; }
+  .left-copy { float: none; text-align: left; width: 100%; margin-bottom: 5px; }
+  .right-copy { float: none; text-align: left; }
+  textarea, input.text, input[type="text"], input[type="button"], input[type="submit"], .input-checkbox { border-radius: 0px; }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  #wrapper { width: 480px; }
+  .container { width: 440px; }
+  .item-related, #main.fullwidth .item-related { width: 138px; margin-right: 13px; margin-bottom: 0px; }
+  #footer-social a { font-size: 16px; margin: 0px 12px; }
+}

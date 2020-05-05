@@ -1,0 +1,76 @@
+/* Code tidied up by ScrapBook */
+#cookie-notice { position: fixed; min-width: 100%; height: auto; z-index: 100000; font-size: 13px; letter-spacing: 0px; line-height: 20px; left: 0px; text-align: center; font-weight: 400; font-family: -apple-system,BlinkMacSystemFont,Arial,Roboto,"Helvetica Neue",sans-serif; }
+#cookie-notice, #cookie-notice * { box-sizing: border-box; }
+#cookie-notice .cookie-notice-container { display: block; }
+.cn-position-bottom { bottom: 0px; }
+.cookie-notice-container { padding: 15px 30px; text-align: center; width: 100%; z-index: 2; }
+.cn-close-icon { position: absolute; right: 15px; top: 50%; margin-top: -10px; width: 15px; height: 15px; opacity: 0.5; padding: 10px; outline: 0px none; }
+.cn-close-icon:hover { opacity: 1; }
+.cn-close-icon::after, .cn-close-icon::before { position: absolute; content: " "; height: 15px; width: 2px; top: 3px; background-color: rgb(255, 255, 255); }
+.cn-close-icon::before { transform: rotate(45deg); }
+.cn-close-icon::after { transform: rotate(-45deg); }
+#cookie-notice .cn-button { margin-left: 10px; }
+.cn-button { font-family: -apple-system,BlinkMacSystemFont,Arial,Roboto,"Helvetica Neue",sans-serif; font-weight: 400; font-size: 13px; letter-spacing: 0.25px; line-height: 20px; margin: 0px; padding: 0px; text-align: center; text-transform: none; display: inline-block; cursor: pointer; touch-action: manipulation; white-space: nowrap; outline: 0px none; box-shadow: none; text-shadow: none; border: medium none; border-radius: 3px; }
+.cn-button:hover { box-shadow: 0px 0px 0px 99999px rgba(0, 0, 0, 0.05) inset; text-decoration: none; }
+.cn-button.bootstrap, .cn-button.wp-default { min-height: 30px; text-decoration: none; padding: 0px 10px; line-height: 2.15385; }
+.cn-button.wp-default { color: rgb(255, 255, 255); background: rgb(251, 176, 59) none repeat scroll 0% 0%; }
+.cn-text-container { margin: 0px 0px 6px; }
+.cn-buttons-container, .cn-text-container { display: inline-block; }
+#cookie-notice.cookie-notice-visible.cn-effect-fade, #cookie-notice.cookie-revoke-visible.cn-effect-fade { animation-name: fadeIn; }
+#cookie-notice.cn-effect-fade { animation-name: fadeOut; }
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeOut {
+0% { opacity: 1; }
+100% { opacity: 0; }
+}
+@keyframes fadeOut {
+0% { opacity: 1; }
+100% { opacity: 0; }
+}
+@keyframes slideInUp {
+0% { transform: translate3d(0px, 100%, 0px); visibility: visible; }
+100% { transform: translate3d(0px, 0px, 0px); }
+}
+@keyframes slideInUp {
+0% { transform: translate3d(0px, 100%, 0px); visibility: visible; }
+100% { transform: translate3d(0px, 0px, 0px); }
+}
+@keyframes slideOutDown {
+0% { transform: translate3d(0px, 0px, 0px); }
+100% { visibility: hidden; transform: translate3d(0px, 100%, 0px); }
+}
+@keyframes slideOutDown {
+0% { transform: translate3d(0px, 0px, 0px); }
+100% { visibility: hidden; transform: translate3d(0px, 100%, 0px); }
+}
+@keyframes slideInDown {
+0% { transform: translate3d(0px, -100%, 0px); visibility: visible; }
+100% { transform: translate3d(0px, 0px, 0px); }
+}
+@keyframes slideInDown {
+0% { transform: translate3d(0px, -100%, 0px); visibility: visible; }
+100% { transform: translate3d(0px, 0px, 0px); }
+}
+@keyframes slideOutUp {
+0% { transform: translate3d(0px, 0px, 0px); }
+100% { visibility: hidden; transform: translate3d(0px, -100%, 0px); }
+}
+@keyframes slideOutUp {
+0% { transform: translate3d(0px, 0px, 0px); }
+100% { visibility: hidden; transform: translate3d(0px, -100%, 0px); }
+}
+@media all and (max-width: 900px) {
+  .cookie-notice-container #cn-notice-text { display: block; }
+  .cookie-notice-container #cn-notice-buttons { display: block; }
+  #cookie-notice .cn-button { margin: 0px 5px 5px; }
+}
+@media all and (max-width: 480px) {
+  .cookie-notice-container, .cookie-revoke-container { padding: 15px 25px; }
+}
