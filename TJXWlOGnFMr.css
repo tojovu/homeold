@@ -1,0 +1,12 @@
+/* Code tidied up by ScrapBook */
+@keyframes SUISpinnerRotation {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+@supports (object-fit: cover) {
+  body ._6jm9 { display: none; opacity: 0; }
+}
+@supports (object-fit: cover) {
+  body ._6jma { display: block; height: 100%; left: 0px; object-fit: cover; opacity: 1; position: absolute; top: 0px; width: 100%; }
+}
+._2ph- { padding: 8px; }
